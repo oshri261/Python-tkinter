@@ -1,11 +1,12 @@
 # add GUI for the code
 import tkinter as ttk
 from tkinter import messagebox
-import customtkinter as tk
 
+# make a class
 class GUI:
+    # __init__ its automtic do it at i run <classname>()
     def __init__(self) -> None:
-	    # set a title & higth and width
+	# set a title & higth and width
         self.root = ttk.Tk()
         self.root.geometry('800x450')
         self.root.title(" ")
